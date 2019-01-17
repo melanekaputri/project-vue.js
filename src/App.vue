@@ -1,6 +1,8 @@
 <template>
   <div id="app">
-    <app-messaage></app-messaage>
+    <h1>Lets Go Somewhere! </h1>
+    <hr>
+    <router-view></router-view>
   </div>
 </template>
 
@@ -9,7 +11,7 @@ export default {
   data() {
     return {
     }
-}
+  }
 }
 </script>
 
